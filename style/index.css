@@ -216,6 +216,11 @@
 
 @media screen and (max-width: 650px) {
 
+  .bline{
+    width: fit-content !important;
+    margin-inline-end: auto;
+  }
+
   .pg1_main>h1 span {
     color: var(--clr);
     border-bottom: 2px solid var(--clr);
